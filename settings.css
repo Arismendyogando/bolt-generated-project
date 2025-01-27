@@ -1,0 +1,25 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #1e1e2f;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    input[type="range"],
+    select,
+    input[type="number"] {
+      margin-left: 10px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #3a3a5a;
+      background: #2a2a40;
+      color: white;
+    }
+
+    input[type="range"] {
+      width: 150px;
+    }
